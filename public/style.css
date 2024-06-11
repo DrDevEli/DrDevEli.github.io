@@ -136,6 +136,7 @@ body{
         margin: 15px auto;
     }
    .logos ul li {
+       width: 70%;
        list-style: none;
        margin: 25px auto;
        display: flex;

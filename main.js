@@ -6,6 +6,6 @@ const projectJS = document.getElementById('projectsJS');
 projectHTML.onclick( function(){
     console.log(projectHTML);
    // Redirect to a different page
-   window.open('https://github.com/DrDevEli/HTML_Basics', '_blank'); // Opens in a new tab Git repo
+   //window.open('https://github.com/DrDevEli/HTML_Basics', '_blank'); // Opens in a new tab Git repo
 });
 

@@ -3,7 +3,7 @@ const projectHTMLImg = document.getElementById('projectsHTML');
 const projectCSSImg = document.getElementById('projectsCSS');
 const projectJSImg = document.getElementById('projectsJS');
 //Creating a new button element
-projectHTML.addEventListener('click', function(){
+projectHTMLImg.addEventListener('click', function(){
     const HTMLbutton = document.createElement('button');
     HTMLbutton.style.cursor = 'pointer';
     //Replace the img with button

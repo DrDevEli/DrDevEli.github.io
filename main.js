@@ -2,10 +2,16 @@
 const projectHTML = document.getElementById('projectsHTML');
 const projectCSS = document.getElementById('projectsCSS');
 const projectJS = document.getElementById('projectsJS');
-//Creating an event listener 
-projectHTML.innerHTML.addEventListener('click', function(){
-    console.log(projectHTML);
-   // Redirect to a different page
-   //window.open('https://github.com/DrDevEli/HTML_Basics', '_blank'); // Opens in a new tab Git repo
-});
+//Creating a new button element
+projectHTML.addEventListener('click', function(){
+    const HTMLbutton = document.createElement('button');
+    HTMLbutton.style.cursor = 'pointer';
+    //Replace the img with button
+    projectHTML.replaceWith(buttonElement);
+    //Add an Event listener to the new button
+    HTMLbutton.addEventListener('click', function(){
+        alert('Button clicked!');
+    })
 
+
+})

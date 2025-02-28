@@ -1,9 +1,5 @@
 //Adding event listeners to the img from Portfolio 
-const projectHTMLImg = document.getElementById('projectsHTML');
-const projectCSSImg = document.getElementById('projectsCSS');
-const projectJSImg = document.getElementById('projectsJS');
-//Creating a new button element
-projectHTMLImg.addEventListener('click', function(){
+const projectHTMLImg = document.getElementById('projectsHTML').addEventListener('click', function(){
     const HTMLbutton = document.createElement('button');
     HTMLbutton.style.cursor = 'pointer';
     //Replace the img with button
@@ -14,4 +10,7 @@ projectHTMLImg.addEventListener('click', function(){
     })
 
 
-})
+});
+const projectCSSImg = document.getElementById('projectsCSS');
+const projectJSImg = document.getElementById('projectsJS');
+//Creating a new button element
